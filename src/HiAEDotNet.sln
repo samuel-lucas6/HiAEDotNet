@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiAEDotNet", "HiAEDotNet\HiAEDotNet.csproj", "{963197E2-6FA4-45A9-A152-18214CC20D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiAEDotNet.Tests", "HiAEDotNet.Tests\HiAEDotNet.Tests.csproj", "{93802D68-DDAB-405B-A5D1-AE67565B30BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{963197E2-6FA4-45A9-A152-18214CC20D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963197E2-6FA4-45A9-A152-18214CC20D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963197E2-6FA4-45A9-A152-18214CC20D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963197E2-6FA4-45A9-A152-18214CC20D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93802D68-DDAB-405B-A5D1-AE67565B30BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93802D68-DDAB-405B-A5D1-AE67565B30BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93802D68-DDAB-405B-A5D1-AE67565B30BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93802D68-DDAB-405B-A5D1-AE67565B30BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

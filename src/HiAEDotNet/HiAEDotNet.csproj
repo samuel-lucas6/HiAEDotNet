@@ -9,8 +9,8 @@
         <Description>A .NET implementation of HiAE.</Description>
         <Copyright>Copyright (c) 2025 Samuel Lucas</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageProjectUrl>https://github.com/samuel-lucas6/HiAEDotNet</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/samuel-lucas6/HiAEDotNet</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/hiae-dotnet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/hiae-dotnet</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>hiae aes aead high-throughput-authenticated-encryption authenticated-encryption</PackageTags>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>

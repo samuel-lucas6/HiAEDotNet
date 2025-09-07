@@ -54,6 +54,7 @@ internal sealed class HiAEArm : IDisposable
 
     internal void Encrypt(Span<byte> ciphertext, ReadOnlySpan<byte> plaintext, ReadOnlySpan<byte> associatedData = default)
     {
+        if (_disposed) { throw new ObjectDisposedException(nameof(HiAEArm)); }
         int remainder = associatedData.Length & HiAE.BlockMask;
         Span<byte> padded = stackalloc byte[HiAE.BlockSize];
         if (associatedData.Length >= HiAE.BlockSize) {
@@ -92,6 +93,7 @@ internal sealed class HiAEArm : IDisposable
 
     internal void Decrypt(Span<byte> plaintext, ReadOnlySpan<byte> ciphertext, ReadOnlySpan<byte> associatedData = default)
     {
+        if (_disposed) { throw new ObjectDisposedException(nameof(HiAEArm)); }
         int remainder = associatedData.Length & HiAE.BlockMask;
         Span<byte> padded = stackalloc byte[HiAE.BlockSize];
         if (associatedData.Length >= HiAE.BlockSize) {
